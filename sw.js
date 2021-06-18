@@ -10,13 +10,13 @@ self.addEventListener('push', function (e)  {
       actions: [
         {
           action: 'explore',
-          title: 'PLEASE SUBMIT YOUR REPORT ASAP!',
+          title: 'URGENT!',
           //icon: 'images/checkmark.png'
         },
         { action: 'close', title: 'Close'}
        ]
       
     };
-    e.waitUntil(self.registration.showNotification('PLEASE SUBMIT YOUR REPORT', options));
+    e.waitUntil(self.registration.showNotification('URGENT', options));
  });
  

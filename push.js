@@ -21,3 +21,4 @@ auth: 'vRC_uKlwk9y6jfu_p_cySA'
 };
 
 push.sendNotification(sub, 'test message')
+
